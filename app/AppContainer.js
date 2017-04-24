@@ -13,7 +13,7 @@ export default class AppContainer extends Component {
   }
 
   toggleDrawer() {
-    this.state.toggle ? this._drawer.close() : this._drawer.open()
+    this.state.toggled ? this._drawer.close() : this._drawer.open()
   }
 
   openDrawer() {
